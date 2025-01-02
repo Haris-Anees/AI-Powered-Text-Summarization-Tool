@@ -1,0 +1,14 @@
+{
+    "name": "Summarization Tool",
+    "version": "1.0.0",
+    "description": "This is an extension that allows for webpages to be easily summarized.",
+    "manifest_version": 3,
+    "author": "Haris Anees",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Summarization Tool"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
