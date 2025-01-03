@@ -2,4 +2,5 @@ Flask
 flask-cors
 openai
 beautifulsoup4
+lxml
 requests
