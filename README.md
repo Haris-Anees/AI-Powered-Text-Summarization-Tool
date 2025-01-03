@@ -1,4 +1,4 @@
-## Steps to Temporarily Export the API Key
+## Steps to run the extension
 
 **Download or Clone the Project**
   - If the project is stored in a Git repository, you can clone it by running:
