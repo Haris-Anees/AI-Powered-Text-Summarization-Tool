@@ -1,5 +1,8 @@
 ## Steps to run the extension
 
+Before you get started on using this chrome extension. You will first need an OPENAI-API-KEY. 
+To get one visit https://platform.openai.com/docs/quickstart
+
 **Download or Clone the Project**
   - If the project is stored in a Git repository, you can clone it by running:
     ```bash
@@ -30,7 +33,7 @@
     ```
 
 - **Export the OpenAI API Key Temporarily**
-  - Before running the Flask application, the user needs to export the API key in the terminal:
+  - Before running the Flask application, you need to export the API key in the terminal:
     - **On Mac/Linux**:
       ```bash
       export OPENAI_API_KEY="your-openai-api-key-here"
@@ -45,7 +48,7 @@
       ```
 
 - **Run the Flask Application**
-  - Now, users can run the Flask app:
+  - Now, run the Flask app:
     ```bash
     python3 app.py
     ```
