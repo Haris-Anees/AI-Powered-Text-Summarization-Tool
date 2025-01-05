@@ -5,16 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summarization Tool</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <h3>Please input the url of the current website you want to summarize: </h2>
         <textarea id="text_input" rows="1" cols="70"></textarea>
+
         <br>
-        <button id="summarizeButton">Click to Summarize</button>
+        <div class="buttonContainer">
+            <button id="summarizeButton" class="sumButton">Summarize</button>
+        </div>
+
         <br>
-        <textarea id="text_output" rows="10" cols="70" readonly></textarea>
-        <script src="popup.js"></script>
+        <h3>Summary: </h2>
+            <textarea id="text_output" rows="10" cols="70" readonly></textarea>
+            <script src="popup.js"></script>
 </body>
 
 
