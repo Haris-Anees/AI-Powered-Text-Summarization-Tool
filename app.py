@@ -31,7 +31,7 @@ def summarize(msg):
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant that is responsible for recieving text, examining only the content, and concisely summarize."},
+            {"role": "system", "content": "You are a helpful assistant that is responsible for receiving text, examining only the content, and concisely summarize in 2 or 3 paragraphs."},
             {
                 "role": "user",
                 "content": msg

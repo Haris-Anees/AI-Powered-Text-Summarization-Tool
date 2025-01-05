@@ -21,6 +21,7 @@ document.getElementById('summarizeButton').addEventListener('click', () => {
     })
     .then(json => {
         chrome.runtime.sendMessage({ action: 'summarize', summary: json.summary });
+        document.getElementById('text_output').innerText = json.summary;
     })
     .catch(error => {
         console.error('There was an error with the fetch operation:', error);
