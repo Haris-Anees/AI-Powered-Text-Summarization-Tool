@@ -3,10 +3,24 @@
 Before you get started on using this chrome extension. You will first need an OPENAI-API-KEY. 
 To get one visit https://platform.openai.com/docs/quickstart
 
-Then:
-Type in chrome://extensions/ and enable developer mode, located in the top right corner.
+Then,
+Type in "chrome://extensions/" in your browser and enable developer mode, located in the top right corner:
 
-![dev mode](https://github.com/Haris-Anees/AI-Powered-Text-Summarization-Tool/blob/8c4822eb85fc69b195181004bc6d900e5fb42aea/images/dev-mode-img.png)
+![dev mode switch](https://github.com/Haris-Anees/AI-Powered-Text-Summarization-Tool/blob/8c4822eb85fc69b195181004bc6d900e5fb42aea/images/dev-mode-img.png)
+
+Afterwards, click "Load unpacked" in the top left corner and find the downloaded repository:
+
+![load unpacked button](https://github.com/Haris-Anees/AI-Powered-Text-Summarization-Tool/blob/f3c09a51e42fdd20b0b3087bfe52197fff007912/images/unpack-img.png)
+
+You should then see the extension "Summarization Tool" in your extentions:
+
+![extention visible](https://github.com/Haris-Anees/AI-Powered-Text-Summarization-Tool/blob/f3c09a51e42fdd20b0b3087bfe52197fff007912/images/exten-visible-img.png)
+
+You can then click on the extension to see it:
+
+![extention opened](https://github.com/Haris-Anees/AI-Powered-Text-Summarization-Tool/blob/f3c09a51e42fdd20b0b3087bfe52197fff007912/images/exten-open-img.png)
+
+Within this extension, the first text area is where you will put the url of the webpage you want to summarize, and at the bottom is where the summary will be placed. (Note that it takes some time to summarize). However, before we can run it, go through the following steps:
 
 
 **Download or Clone the Project**
