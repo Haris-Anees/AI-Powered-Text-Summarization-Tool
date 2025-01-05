@@ -3,6 +3,12 @@
 Before you get started on using this chrome extension. You will first need an OPENAI-API-KEY. 
 To get one visit https://platform.openai.com/docs/quickstart
 
+Then:
+Type in chrome://extensions/ and enable developer mode, located in the top right corner.
+
+![dev mode](https://github.com/Haris-Anees/AI-Powered-Text-Summarization-Tool/blob/8c4822eb85fc69b195181004bc6d900e5fb42aea/images/dev-mode-img.png)
+
+
 **Download or Clone the Project**
   - If the project is stored in a Git repository, you can clone it by running:
     ```bash
